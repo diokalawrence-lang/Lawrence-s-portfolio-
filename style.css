@@ -72,3 +72,13 @@ h1 {
     font-size: 20px;
     font-weight: 500;
 }
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.project-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
