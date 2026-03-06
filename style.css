@@ -82,3 +82,9 @@ h1 {
   height: auto;
   border-radius: 10px;
 }
+.project-gallery img{
+width:100%;
+max-width:600px;
+height:auto;
+object-fit:contain;
+}
